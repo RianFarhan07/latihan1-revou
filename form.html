@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+</head>
+<body>
+
+    <form action="https://www.google.com/" method="POST">
+        <label for="nama">Nama</label>
+        <input id="name" type="text">
+        <br>
+        <label for="umur">Umur</label>
+        <input id="umur" type="number" min="1" max="99">
+        <br>
+        <p>apa warna favoritemu</p>
+        <select name="warna" id="warna">
+            <option>merah</option>
+            <option>kuning</option>
+            <option>hijau</option>
+            <option>biru    </option>
+        </select>
+        <input type="submit" value="Submit">
+
+    </form>
+
+    <fieldset>
+        <legend>Data Diri</legend>
+        <label for="nama"> Nama</label>
+        <input type="text" name="nama">
+        <p></p>
+        <label for="usia">Usia</label>
+        <input type="number" name="usia">
+        <p></p>
+        <label for="jenis kelamin"></label>
+        <label for="jk">L</label>
+        <input type="radio" id="laki" name="jk" value="L">
+        <label for="jk">P</label>
+        <input type="radio" id="perempuan" name="jk" value="P">
+
+    </fieldset>
+</body>
+</html>
